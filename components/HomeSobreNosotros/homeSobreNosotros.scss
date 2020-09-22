@@ -1,0 +1,27 @@
+.home-sobre-nosotros-container {
+  padding: 6rem 12.5vw;
+
+  & h3 {
+    color: $color-secondary;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  & .home-sobre-nosotros_row {
+    & .home-sobre-nosotros_col {
+      & p {
+        color: $color-grey;
+        font-size: 1.4rem;
+        text-align: justify;
+
+        &.text-quote {
+          text-align: center;
+        }
+
+        & span {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}

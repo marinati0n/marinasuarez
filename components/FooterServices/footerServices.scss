@@ -1,0 +1,15 @@
+.footer-services-container {
+  & .footer-services_title {
+    color: $color-primary;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  & .footer-services_list {
+    list-style: none;
+
+    & .footer-services_item-list {
+      text-transform: capitalize;
+    }
+  }
+}

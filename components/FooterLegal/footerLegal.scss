@@ -1,0 +1,11 @@
+.footer-legal-container {
+  & .footer-legal_title {
+    color: $color-primary;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  & .footer-legal_list {
+    list-style: none;
+  }
+}

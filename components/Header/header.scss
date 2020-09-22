@@ -1,0 +1,46 @@
+#main-header {
+  background-color: $color-primary-super-dark;
+
+  .header-container {
+    height: 100%;
+    position: relative;
+    width: 100%;
+
+    & .header_social-media {
+      position: absolute;
+      right: 0;
+      transform-origin: 100% 0;
+    }
+
+    & .header_logo {
+      left: 50%;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    & .header_dots {
+      bottom: 0;
+      height: 32px;
+      position: absolute;
+      width: 100%;
+
+      & .header_dot {
+        background-color: $color-secondary;
+        border-radius: 50%;
+        height: 1rem;
+        margin: 0 auto;
+        width: 1rem;
+      }
+
+      & .header_dot--1 {
+        animation: dotAnimation1 1s ease-in-out forwards;
+      }
+
+      & .header_dot--2 {
+        animation: dotAnimation2 1s ease-in-out forwards;
+      }
+    }
+  }
+}

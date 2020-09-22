@@ -1,0 +1,17 @@
+.footer-contact-container {
+  & .footer-contact_title {
+    color: $color-primary;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  & .footer-contact_list {
+    list-style: none;
+
+    & .footer-contact_item-list {
+      & i {
+        color: $color-primary;
+      }
+    }
+  }
+}

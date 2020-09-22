@@ -1,0 +1,18 @@
+.squares-container-container {
+  & h3 {
+    background-color: $color-primary;
+    color: $color-white;
+    font-size: 2.2rem;
+    margin: 0 auto 1rem auto;
+    text-align: center;
+    text-shadow: 0 2px 0.2rem rgba($color-black, 0.65);
+    width: 20%;
+  }
+
+  & .squares-container_row {
+    & .squares-container_col {
+      padding: 1rem;
+      text-align: center;
+    }
+  }
+}

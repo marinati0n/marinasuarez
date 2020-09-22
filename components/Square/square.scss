@@ -1,0 +1,31 @@
+.square-container {
+  background-color: $color-white;
+  border-radius: 0.25rem;
+  box-shadow: 0 1rem 1.5rem rgba($color-black, 0.65);
+  cursor: pointer;
+  height: 100%;
+  transition: all 300ms;
+  width: 100%;
+
+  &:hover {
+    box-shadow: 0 1rem 3rem rgba($color-black, 0.95);
+    transform: scale(1.025);
+
+    & h2 {
+      color: $color-secondary;
+      transition: all 300ms;
+    }
+  }
+
+  & .square-container_texts {
+    @include absCenter;
+
+    & h2 {
+      font-size: 2rem;
+    }
+
+    & p {
+      color: $color-grey-light;
+    }
+  }
+}

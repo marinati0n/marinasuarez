@@ -1,0 +1,55 @@
+.social-media-container {
+  &.align-center {
+    text-align: center;
+  }
+
+  &.align-left {
+    text-align: left;
+  }
+
+  &.align-right {
+    text-align: right;
+  }
+
+  & a {
+    & .anticon {
+      color: $color-secondary;
+      font-size: 1.8rem;
+      position: relative;
+      transition: all 300ms;
+
+      &::after {
+        content: '·';
+        color: $color-primary;
+        font-size: 4rem;
+        height: 8px;
+        left: 50%;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 300ms;
+        width: 8px;
+      }
+
+      &:hover {
+        color: $color-secondary-light;
+
+        &::after {
+          left: -0.65rem;
+          opacity: 1;
+          top: 2.5rem;
+          transition: all 300ms;
+        }
+      }
+
+      @include respond(phone) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &:not(:first-of-type) {
+      margin-left: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.home-container {
+  position: relative;
+
+  & .home-container_squares {
+    background-image: linear-gradient(
+        to left top,
+        rgba($color-primary, 0.95),
+        rgba($color-secondary, 0.95)
+      ),
+      url(https://res.cloudinary.com/wedwedweddings/image/upload/v1598890883/wedwedweddings.com/images/bg_yv8vld.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 3rem $color-black;
+    padding: 6rem 12.5vw;
+  }
+
+  & .home-container_subservices {
+    background-color: $color-grey;
+  }
+
+  & .home-container_sobre-nosotros {
+    background-color: $color-white;
+  }
+}
