@@ -1,26 +1,13 @@
 export const squares = {
-  marketingDigital: {
-    title: 'Marketing Digital',
+  posicionamientoWeb: {
+    title: 'Posicionamiento Web',
   },
 
-  desarrolloWeb: {
-    title: 'Desarrollo Web',
+  gestiondeRedes: {
+    title: 'Gestión de Redes Sociales',
   },
 
-  diseno: {
-    title: 'Diseño',
+  estrategiaDigital: {
+    title: 'Estrategia Digital',
   },
-
-  produccionAudiovisual: {
-    title: 'Producción Audiovisual',
-  },
-
-  fotografia: {
-    title: 'Fotografía',
-  },
-
-  packs: {
-    title: 'Packs',
-    description: '(Pregúntanos)',
-  },
-}
+};
