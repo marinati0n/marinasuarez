@@ -20,7 +20,7 @@ export default {
       default: 'center',
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

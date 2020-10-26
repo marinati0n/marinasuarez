@@ -31,7 +31,7 @@ export default {
             'Página web de Marina Suárez (@marinati0n), donde encontrarás información personal, profesional y artículos de marketing digital.',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

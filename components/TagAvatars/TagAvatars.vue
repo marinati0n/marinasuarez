@@ -1,5 +1,10 @@
 <template>
-  <a-row v-if="checkTags()" class="container-article__avatars" type="flex" justify="start">
+  <a-row
+    v-if="checkTags()"
+    class="container-article__avatars"
+    type="flex"
+    justify="start"
+  >
     <a-col
       v-for="(tag, index) in tags"
       :key="index"
@@ -11,7 +16,11 @@
           <span>{{ tag }}</span>
         </template>
 
-        <a-avatar :src="url(tag)" class="container-article__avatar" :size="size" />
+        <a-avatar
+          :src="url(tag)"
+          class="container-article__avatar"
+          :size="size"
+        />
       </a-tooltip>
     </a-col>
   </a-row>
@@ -31,7 +40,7 @@
 export default {
   props: {
     size: {
-      default: "small",
+      default: 'small',
       type: String,
       required: true,
     },
@@ -44,30 +53,30 @@ export default {
 
   methods: {
     checkTags() {
-      const founds = [];
+      const founds = []
 
       this.tags.forEach((t) => {
         Object.keys(this.$tags).forEach((item) => {
           if (item === t) {
-            founds.push(this.$tags[item]);
+            founds.push(this.$tags[item])
           }
-        });
-      });
+        })
+      })
 
-      return founds.length > 0;
+      return founds.length > 0
     },
 
     url(tag) {
-      let found;
+      let found
 
       Object.keys(this.$tags).forEach((item) => {
         if (item === tag) {
-          found = this.$tags[item];
+          found = this.$tags[item]
         }
-      });
+      })
 
-      return found ? found.img : "";
+      return found ? found.img : ''
     },
   },
-};
+}
 </script>

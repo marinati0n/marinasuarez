@@ -17,11 +17,10 @@
 
 <script>
 export default {
-  name: "ContactForm"
-};
+  name: 'ContactForm',
+}
 </script>
 
 <style lang="scss">
-@import "../../assets/scss/main.scss";
-@import "./contactForm.scss";
+@import './contactForm.scss';
 </style>

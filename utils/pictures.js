@@ -1,24 +1,24 @@
 export const pictures = {
   chatting:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598779655/alvarosaavedradiaz/assets/images/chatting_pcn9bw.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598779655/alvarosaavedradiaz/assets/images/chatting_pcn9bw.jpg',
   chineseRestaurant:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598779849/alvarosaavedradiaz/assets/images/chinese-restaurant_hxmkjh.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598779849/alvarosaavedradiaz/assets/images/chinese-restaurant_hxmkjh.jpg',
   curiosity:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598779748/alvarosaavedradiaz/assets/images/curiosity_pz31nd.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598779748/alvarosaavedradiaz/assets/images/curiosity_pz31nd.jpg',
   cyberburgers:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598780770/alvarosaavedradiaz/assets/images/cyberburgers_nqsw2o.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598780770/alvarosaavedradiaz/assets/images/cyberburgers_nqsw2o.jpg',
   leicesterSquare:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598779516/alvarosaavedradiaz/assets/images/leicesterSquare_syfjko.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598779516/alvarosaavedradiaz/assets/images/leicesterSquare_syfjko.jpg',
   neonPullAndBear:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598780774/alvarosaavedradiaz/assets/images/neon-pull-and-bear_iadczq.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598780774/alvarosaavedradiaz/assets/images/neon-pull-and-bear_iadczq.jpg',
   shapesOClock:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598779974/alvarosaavedradiaz/assets/images/shapes-o-clock_usy2pv.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598779974/alvarosaavedradiaz/assets/images/shapes-o-clock_usy2pv.jpg',
   sunsetInsideScreen:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598780087/alvarosaavedradiaz/assets/images/sunset-inside-screen_bluvwv.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598780087/alvarosaavedradiaz/assets/images/sunset-inside-screen_bluvwv.jpg',
   virtualModels:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598780157/alvarosaavedradiaz/assets/images/virtual-models_nsqzed.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598780157/alvarosaavedradiaz/assets/images/virtual-models_nsqzed.jpg',
   visitor:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598780307/alvarosaavedradiaz/assets/images/visitor_iglmci.jpg",
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598780307/alvarosaavedradiaz/assets/images/visitor_iglmci.jpg',
   workingWoman:
-    "https://res.cloudinary.com/alvarooncode/image/upload/v1598780492/alvarosaavedradiaz/assets/images/working-woman_shljyb.jpg"
-};
+    'https://res.cloudinary.com/alvarooncode/image/upload/v1598780492/alvarosaavedradiaz/assets/images/working-woman_shljyb.jpg',
+}

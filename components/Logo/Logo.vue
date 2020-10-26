@@ -1,5 +1,5 @@
 <template>
-  <img :class="`logo-img ${size}`" src="@/assets/logo.png" alt="Trafficker Digital Sotogrande" />
+  <img :class="`logo-img ${size}`" src="" alt="Marina Suárez Fernández" />
 </template>
 
 <script>
@@ -10,7 +10,7 @@ export default {
       default: 'medium',
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

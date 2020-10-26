@@ -12,11 +12,11 @@
 export default {
   computed: {
     year: () => {
-      const d = new Date();
-      return d.getFullYear();
+      const d = new Date()
+      return d.getFullYear()
     },
   },
-};
+}
 </script>
 
 <style lang="scss">

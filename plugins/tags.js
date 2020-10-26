@@ -1,5 +1,5 @@
-import { tags } from '@/utils/tags';
+import { tags } from '@/utils/tags'
 
 export default ({}, inject) => {
-  inject('tags', tags);
-};
+  inject('tags', tags)
+}

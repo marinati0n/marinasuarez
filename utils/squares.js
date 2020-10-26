@@ -1,13 +1,13 @@
 export const squares = {
   posicionamientoWeb: {
-    title: 'Posicionamiento Web',
+    title: 'Posicionamiento',
   },
 
-  gestiondeRedes: {
-    title: 'Gestión de Redes Sociales',
+  redesSociales: {
+    title: 'Redes Sociales',
   },
 
   estrategiaDigital: {
     title: 'Estrategia Digital',
   },
-};
+}

@@ -45,4 +45,4 @@ export const tags = {
     icon:
       'https://res.cloudinary.com/alvarooncode/image/upload/v1597686272/alvarosaavedradiaz/assets/brands/vuejs_kv5w6w.png',
   },
-};
+}

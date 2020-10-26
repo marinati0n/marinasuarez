@@ -57,4 +57,4 @@ export const subservices = [
     iconType: 'reconciliation',
     category: 'estrategiaDigital',
   },
-];
+]

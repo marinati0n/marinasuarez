@@ -22,7 +22,7 @@
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
             <a-card hoverable>
               <!-- Image -->
-              <img :alt="article.title" :src="article.img" slot="cover" />
+              <img slot="cover" :alt="article.title" :src="article.img" />
 
               <!-- Meta -->
               <a-card-meta :title="article.title" class="heading-tertiary">
@@ -51,11 +51,11 @@ export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articles', params.slug)
       .sortBy('createdAt', 'asc')
-      .fetch();
+      .fetch()
 
     return {
       articles,
-    };
+    }
   },
 
   /**
@@ -73,7 +73,7 @@ export default {
             'Blog de Marina Suárez, donde encontrarás información personal, profesional y artículos de marketing digital.',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>

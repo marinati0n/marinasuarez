@@ -1,5 +1,5 @@
-import { pictures } from '@/utils/pictures';
+import { pictures } from '@/utils/pictures'
 
 export default ({}, inject) => {
-  inject('pictures', pictures);
-};
+  inject('pictures', pictures)
+}

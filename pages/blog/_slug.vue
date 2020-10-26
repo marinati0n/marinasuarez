@@ -21,7 +21,9 @@
                   <h1 class="heading-secondary">{{ article.title }}</h1>
                   <h2 class="description">🧑‍💻 {{ article.description }}</h2>
 
-                  <p class="date">📅 Actualizado el {{ formatDate(article.updatedAt) }}</p>
+                  <p class="date">
+                    📅 Actualizado el {{ formatDate(article.updatedAt) }}
+                  </p>
                 </a-col>
               </a-row>
 
@@ -61,25 +63,25 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch();
+    const article = await $content('articles', params.slug).fetch()
 
     const [prev, next] = await $content('articles')
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
-      .fetch();
+      .fetch()
 
     return {
       article,
       prev,
       next,
-    };
+    }
   },
 
   methods: {
     formatDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' };
-      return new Date(date).toLocaleDateString('es', options);
+      const options = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('es', options)
     },
   },
 
@@ -104,7 +106,7 @@ export default {
           content: 'Marina Suárez',
         },
       ],
-    };
+    }
   },
-};
+}
 </script>
