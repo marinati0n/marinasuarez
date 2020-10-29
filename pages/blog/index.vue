@@ -1,48 +1,47 @@
 <template>
-  <div class="container">
-    <div class="container-blog">
-      <!-- Title and Subtitle -->
-      <a-row class="container-blog__text-block" type="flex" justify="center">
-        <a-col>
-          <h1 class="heading-secondary">Blog</h1>
-        </a-col>
-      </a-row>
+  <div class="container-blog">
+    <!-- Categories -->
+    <a-row class="container-blog_header" type="flex" justify="space-between">
+      <!-- <a-col class="container-blog_category">Cat 1</a-col>
+      <a-col class="container-blog_category">Cat 2</a-col>
+      <a-col class="container-blog_category">Cat 3</a-col> -->
 
-      <a-divider />
+      <a-col class="container-blog_title" :span="12">
+        <h2>Blog</h2>
+      </a-col>
 
-      <!-- Articles -->
-      <a-row class="container-blog__articles" type="flex">
-        <a-col
-          v-for="article of articles"
-          :key="article.slug"
-          :span="6"
-          class="container-blog__article"
-          hoverable
-        >
-          <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-            <a-card hoverable>
-              <!-- Image -->
-              <img slot="cover" :alt="article.title" :src="article.img" />
+      <a-col class="container-blog_search" :span="12">
+        <a-input-search placeholder="input search text" style="width: 200px" />
+      </a-col>
+    </a-row>
 
-              <!-- Meta -->
-              <a-card-meta :title="article.title" class="heading-tertiary">
-                <template slot="description">
-                  <p class="paragraph">
-                    {{ article.description }}
-                    <a-icon type="caret-right" />
-                  </p>
-                </template>
-              </a-card-meta>
+    <!-- Articles -->
+    <a-row class="container-blog__articles" type="flex">
+      <a-col
+        v-for="article of articles"
+        :key="article.slug"
+        :span="8"
+        class="container-blog__article"
+        hoverable
+      >
+        <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
+          <a-card hoverable>
+            <!-- Image -->
+            <img slot="cover" :alt="article.title" :src="article.img" />
 
-              <a-divider></a-divider>
-
-              <!-- Tags -->
-              <tag-avatars :size="'small'" :tags="article.tags" />
-            </a-card>
-          </NuxtLink>
-        </a-col>
-      </a-row>
-    </div>
+            <!-- Meta -->
+            <a-card-meta :title="article.title" class="heading-tertiary">
+              <template slot="description">
+                <p class="paragraph">
+                  {{ article.description }}
+                  <a-icon type="caret-right" />
+                </p>
+              </template>
+            </a-card-meta>
+          </a-card>
+        </NuxtLink>
+      </a-col>
+    </a-row>
   </div>
 </template>
 

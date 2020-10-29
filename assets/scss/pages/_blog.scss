@@ -1,0 +1,21 @@
+.container-blog {
+  padding: 3rem 8vw;
+
+  & .container-blog_header {
+    & .container-blog_search {
+      text-align: right;
+
+      & input {
+        &::placeholder {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  & .container-blog__articles {
+    & .container-blog__article {
+      padding: 1.5rem 3rem;
+    }
+  }
+}

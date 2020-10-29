@@ -1,13 +1,16 @@
 <template>
   <div class="header-container">
-    <a-row type="flex" justify="space-between">
+    <a-row
+      type="flex"
+      :justify="this.$route.name === 'index' ? 'space-between' : 'center'"
+    >
       <a-col class="col-name" :span="6">
         <nuxt-link to="/">
           <h1>Marina Suárez</h1>
         </nuxt-link>
       </a-col>
 
-      <a-col class="col-social" :span="4"
+      <a-col v-if="visible" class="col-social" :span="4"
         ><SocialMedia :align="'right'"
       /></a-col>
     </a-row>
