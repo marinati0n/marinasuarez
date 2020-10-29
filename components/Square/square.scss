@@ -9,7 +9,7 @@
 
   &:hover {
     background-color: $color-white;
-    box-shadow: 0 1rem 3rem rgba($color-black, 0.95);
+    box-shadow: 0 0.65rem 1rem rgba($color-black, 0.35);
 
     & .square-container_texts {
       & h2 {

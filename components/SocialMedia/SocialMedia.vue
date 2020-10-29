@@ -1,12 +1,12 @@
 <template>
   <div :class="`social-media-container ${align}`">
     <!-- LinkedIn -->
-    <a href="#">
+    <a href="https://www.linkedin.com/in/marina-suarez-fdez/" target="_blank">
       <a-icon type="linkedin" />
     </a>
 
     <!-- Twitter -->
-    <a href="#">
+    <a href="https://twitter.com/Marinati0n" target="_blank">
       <a-icon type="twitter" />
     </a>
   </div>

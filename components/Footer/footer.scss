@@ -1,8 +1,16 @@
 #main-footer {
   background-color: $color-grey-dark;
   color: $color-grey-light;
-  height: 20vh;
+  padding: 3rem 0 0 0;
   width: 100vw;
+
+  & .footer-container {
+    & .footer-container_row {
+      & .footer-container_col {
+        padding: 0 1rem 2rem 1rem;
+      }
+    }
+  }
 
   @include respond(phone) {
     height: 16vh;

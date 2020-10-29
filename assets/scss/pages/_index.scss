@@ -1,6 +1,10 @@
 .home-container {
   position: relative;
 
+  & .home_projects {
+    background-color: $color-primary;
+  }
+
   & .home-container_squares {
     background-image: linear-gradient(
         to left top,
@@ -13,13 +17,5 @@
     background-size: cover;
     box-shadow: inset 0 0 2.5rem rgba($color-black, 0.75);
     padding: 6rem 12.5vw;
-  }
-
-  & .home-container_subservices {
-    background-color: $color-primary;
-  }
-
-  & .home-container_sobre-nosotros {
-    background-color: $color-white;
   }
 }

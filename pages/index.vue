@@ -1,15 +1,13 @@
 <template>
   <div class="home-container">
+    <div class="home_projects">
+      <MyProjects />
+    </div>
+
     <div class="home-container_squares">
       <SquaresContainer />
-    </div>
 
-    <div class="home-container_subservices">
       <HomeServices />
-    </div>
-
-    <div class="home-container_sobre-nosotros">
-      <HomeSobreNosotros />
     </div>
   </div>
 </template>
@@ -28,7 +26,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Página web de Marina Suárez (@marinati0n), donde encontrarás información personal, profesional y artículos de marketing digital.',
+            'Página web de Marina Suárez, donde encontrarás información personal, profesional y artículos de marketing digital.',
         },
       ],
     }

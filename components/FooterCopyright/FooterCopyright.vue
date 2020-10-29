@@ -1,7 +1,7 @@
 <template>
   <div class="footer-copyright-container">
     <p>
-      &copy; {{ year }} Marina Suárez&nbsp;|&nbsp;Hecho con&nbsp;
+      &copy; {{ year }} Marina Suárez&nbsp;|&nbsp;Hecho con
       <a-icon class="footer__icon-heart" type="heart" />&nbsp;por&nbsp;
       <a href="https://alvarosaavedradiaz.com/">Álvaro Saavedra Díaz</a>
     </p>

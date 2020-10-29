@@ -1,0 +1,50 @@
+.my-projects_container {
+  padding: 6rem 0;
+
+  & h3 {
+    color: $color-white;
+    font-size: 2.2rem;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    text-shadow: 0 2px 0.2rem rgba($color-black, 0.65);
+  }
+
+  & .my-projects_row {
+    padding-bottom: 4rem;
+
+    & .my-projects_col {
+      padding: 2rem 4rem;
+      position: relative;
+      text-align: center;
+
+      & img {
+        width: 100%;
+      }
+
+      // Wed Wed Weddings
+      &:first-child {
+        & img {
+          height: 96px;
+          width: auto;
+        }
+      }
+
+      // PWA
+      &:nth-child(2) {
+        & img {
+          padding: 2rem 0;
+        }
+      }
+
+      & .project-job {
+        bottom: -3rem;
+        color: $color-white;
+        left: 50%;
+        margin: 0;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 100%;
+      }
+    }
+  }
+}
