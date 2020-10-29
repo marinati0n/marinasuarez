@@ -94,7 +94,7 @@ export default {
               : (this.marketing = this.marketing.replace('3', 'e'))
             break
         }
-      }, 750)
+      }, 200)
     },
   },
 }
