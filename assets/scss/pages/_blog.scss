@@ -1,5 +1,9 @@
 .container-blog {
-  padding: 3rem 8vw;
+  padding: 3rem 50px;
+
+  & .label-categorory {
+    cursor: pointer;
+  }
 
   & .container-blog_header {
     & .container-blog_search {
@@ -15,7 +19,7 @@
 
   & .container-blog__articles {
     & .container-blog__article {
-      padding: 1.5rem 3rem;
+      padding: 2rem 4rem;
     }
   }
 }

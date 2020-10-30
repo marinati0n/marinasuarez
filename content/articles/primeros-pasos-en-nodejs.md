@@ -15,11 +15,11 @@ Fue creado por Ryan Dahl en 2009. Hasta entonces, JavaScript era usado sobre tod
 
 Algunos de los puntos fuertes de NodeJS son los siguientes:
 
-- **Programación dirigida por eventos:** Esto significa que el estado de los objectos de JavaScript cambiarán a través de interacciones de usuario tales como un click del ratón o pulsar una tecla.
+  - **Programación dirigida por eventos:** Esto significa que el estado de los objectos de JavaScript cambiarán a través de interacciones de usuario tales como un click del ratón o pulsar una tecla.
 
-- **Sin bloqueos:** Esto significa que la aplicación no necesita esperar a que el proceso actual finalice para continuar con la ejecución del código posterior. En otras palabras, NodeJS es asíncrono. Y esto ofrece garantía y rapidez en su ejecución.
+  - **Sin bloqueos:** Esto significa que la aplicación no necesita esperar a que el proceso actual finalice para continuar con la ejecución del código posterior. En otras palabras, NodeJS es asíncrono. Y esto ofrece garantía y rapidez en su ejecución.
 
-- **Único hilo:** Esto significa que todo el código JavaScript de una aplicación NodeJS se ejecuta en un sólo búcle de eventos (event loop). Por lo general, los entornos asíncronos permiten tener varios procesos corriendo en paralelo consecutivamente pero NodeJS gestiona la asincronía de otra forma. El event loop lanza la siguiente función programada cuando ocurra el evento que provoca dicha ejecución.
+  - **Único hilo:** Esto significa que todo el código JavaScript de una aplicación NodeJS se ejecuta en un sólo búcle de eventos (event loop). Por lo general, los entornos asíncronos permiten tener varios procesos corriendo en paralelo consecutivamente pero NodeJS gestiona la asincronía de otra forma. El event loop lanza la siguiente función programada cuando ocurra el evento que provoca dicha ejecución.
 
 ## Motor V8
 

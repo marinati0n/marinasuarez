@@ -1,17 +1,22 @@
 <template>
   <div class="container-blog">
-    <!-- Categories -->
+    <!-- Blog header -->
     <a-row class="container-blog_header" type="flex" justify="space-between">
-      <!-- <a-col class="container-blog_category">Cat 1</a-col>
-      <a-col class="container-blog_category">Cat 2</a-col>
-      <a-col class="container-blog_category">Cat 3</a-col> -->
-
-      <a-col class="container-blog_title" :span="12">
-        <h2>Blog</h2>
+      <a-col class="" :span="12">
+        Categorías
+        <NuxtLink
+          v-for="(cat, i) in categories"
+          :key="i"
+          :to="{ name: 'blog-slug', params: { slug: cat.slug } }"
+        >
+          <a-tag class="label-categorory"
+            >{{ cat.emoji }} {{ cat.title }}</a-tag
+          >
+        </NuxtLink>
       </a-col>
 
       <a-col class="container-blog_search" :span="12">
-        <a-input-search placeholder="input search text" style="width: 200px" />
+        <SearchBar />
       </a-col>
     </a-row>
 
@@ -46,8 +51,17 @@
 </template>
 
 <script>
+// Utils
+import { categories } from '@/utils/categories.js'
+
 export default {
+  data: () => ({
+    categories,
+  }),
   async asyncData({ $content, params }) {
+    console.log('content:', $content)
+    console.log('params:', params)
+
     const articles = await $content('articles', params.slug)
       .sortBy('createdAt', 'asc')
       .fetch()

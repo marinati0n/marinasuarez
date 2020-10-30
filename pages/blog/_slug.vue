@@ -30,7 +30,7 @@
               <a-row>
                 <a-col :span="24">
                   <!-- Tags -->
-                  <tag-avatars :size="'large'" :tags="article.tags" />
+                  <!-- <tag-avatars :size="'large'" :tags="article.tags" /> -->
                 </a-col>
               </a-row>
             </a-col>

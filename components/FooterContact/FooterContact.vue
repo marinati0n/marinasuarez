@@ -15,5 +15,5 @@
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
-@import './footerContact.scss';
+@import './footer-contact.scss';
 </style>

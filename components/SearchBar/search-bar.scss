@@ -1,0 +1,15 @@
+.search-bar_container {
+  position: relative;
+
+  & .found-list {
+    background-color: $color-white;
+    padding: 1rem 2rem;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+
+    & li.found-list {
+      border-bottom: 1px solid $color-primary;
+    }
+  }
+}

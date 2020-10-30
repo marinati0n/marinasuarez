@@ -25,5 +25,5 @@ export default {
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
-@import './socialMedia.scss';
+@import './social-media.scss';
 </style>

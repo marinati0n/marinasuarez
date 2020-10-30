@@ -21,5 +21,5 @@ export default {
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
-@import './footerCopyright.scss';
+@import './footer-copyright.scss';
 </style>

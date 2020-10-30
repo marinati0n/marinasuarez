@@ -24,5 +24,5 @@ export default {
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
-@import './footerServices.scss';
+@import './footer-services.scss';
 </style>

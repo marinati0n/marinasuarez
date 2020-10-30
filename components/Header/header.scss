@@ -3,7 +3,16 @@
 
   & .header-container {
     & .col-name {
-      font-size: 2.2rem;
+      & h1 {
+        font-size: 2.2rem;
+      }
+    }
+
+    & .col-blog {
+      & h2 {
+        font-size: 2.2rem;
+        text-align: right;
+      }
     }
 
     & .col-social {

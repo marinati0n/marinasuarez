@@ -1,4 +1,4 @@
-export const squares = {
+export const services = {
   posicionamientoWeb: {
     title: 'Posicionamiento',
   },
