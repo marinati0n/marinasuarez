@@ -5,9 +5,8 @@
     </div>
 
     <div class="home-container_squares">
-      <SquaresContainer />
-
-      <HomeServices />
+      <ServicesContainer />
+      <HomeSubservices />
     </div>
   </div>
 </template>

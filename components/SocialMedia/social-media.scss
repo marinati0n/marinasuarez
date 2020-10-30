@@ -20,7 +20,7 @@
 
       &::after {
         content: '·';
-        color: $color-primary;
+        color: $color-primary-light;
         font-size: 4rem;
         height: 8px;
         left: 50%;
@@ -33,7 +33,7 @@
       }
 
       &:hover {
-        color: $color-secondary-light;
+        color: $color-primary-light;
 
         &::after {
           left: -0.65rem;

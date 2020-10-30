@@ -25,5 +25,5 @@ export default {
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
-@import './square.scss';
+@import './service.scss';
 </style>

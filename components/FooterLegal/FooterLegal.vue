@@ -12,5 +12,5 @@
 
 <style lang="scss">
 @import '@/assets/scss/main.scss';
-@import './footerLegal.scss';
+@import './footer-legal.scss';
 </style>
