@@ -62,14 +62,14 @@ export default {
    */
   head() {
     return {
-      title: 'Marina Suárez 👩‍💻 SEO & Social Media',
+      title: 'Blog sobre Marketing Digital - SEO | Marina Suárez',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
           hid: 'description',
           name: 'description',
           content:
-            'Blog de Marina Suárez, donde encontrarás información personal, profesional y artículos de marketing digital.',
+            'Blog de Marina Suárez. 👩‍💻 Información personal y profesional, consejos y herramientas de Marketing Digital.',
         },
       ],
     }
