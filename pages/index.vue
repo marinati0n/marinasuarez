@@ -18,7 +18,8 @@ export default {
    */
   head() {
     return {
-      title: 'Consultora de Marketing Digital - SEO y Social Media | Marina Suárez',
+      title:
+        'Consultora de Marketing Digital - SEO y Social Media | Marina Suárez',
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
