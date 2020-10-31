@@ -5,7 +5,7 @@ img: https://res.cloudinary.com/ddk0dwwyi/image/upload/v1604146106/marinasuarez/
 alt: Que es Google EAT
 
 tags:
-   - personal
+  - personal
 ---
 
 # ¿Qué es Google EAT?
@@ -26,16 +26,14 @@ Y bueno... si te digo que los evaluadores de calidad de los resultados no son cr
 
 Para resumir e ir al grano de una vez por todas, te diré que las siglas E-A-T se corresponden con estos términos en inglés y cada término, mide de manera diferente la calidad del contenido según una serie de parámetros que explico a continuación:
 
-- - Expertise: nivel de experiencia del autor dentro de una materia o sector en concreto. Se evalúa de forma concreta el propio nivel del contenido, sin tener tanto en cuenta el sitio web o la organización que está detrás de la página o artículo.
+- Expertise: nivel de experiencia del autor dentro de una materia o sector en concreto. Se evalúa de forma concreta el propio nivel del contenido, sin tener tanto en cuenta el sitio web o la organización que está detrás de la página o artículo.
 
-- - Authoritativeness: autoridad en la materia del autor/organización dentro del sector o campo del que trata. Aquí entran directamente los evaluadores de calidad, ya que su función principal es la de buscar información a través de internet sobre el autor del contenido. Esta información se basa principalmente en recabar: reseñas, menciones, información exterior de la propia web u organización que publica el contenido, para comprobar que realmente poseen la autoridad necesaria y que otros usuarios utilizan el contenido de dicho autor u organización para consultar contenido relacionado con la materia.
+- Authoritativeness: autoridad en la materia del autor/organización dentro del sector o campo del que trata. Aquí entran directamente los evaluadores de calidad, ya que su función principal es la de buscar información a través de internet sobre el autor del contenido. Esta información se basa principalmente en recabar: reseñas, menciones, información exterior de la propia web u organización que publica el contenido, para comprobar que realmente poseen la autoridad necesaria y que otros usuarios utilizan el contenido de dicho autor u organización para consultar contenido relacionado con la materia.
 
-- - Trustworthiness: nivel de confiabilidad.
+- Trustworthiness: nivel de confiabilidad.
 
 ## ¿Cómo es medido Google E-AT?
 
 --
 
-Créditos
-
-<a class="credits" href='https://www.freepik.es/fotos-premium/google-tipografia-multiple-pared-roja_9113756.htm#page=1&query=google&position=0'>Imagen de Google creada por natanaelginting - www.freepik.es</a>
+<span class="credits">Créditos <a href='https://www.freepik.es/fotos-premium/google-tipografia-multiple-pared-roja_9113756.htm#page=1&query=google&position=0'>Imagen de Google creada por natanaelginting - www.freepik.es</a></span>

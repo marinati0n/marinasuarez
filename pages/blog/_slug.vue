@@ -1,59 +1,31 @@
 <template>
-  <section class="container">
+  <section class="container-slug">
+    <a-row
+      type="flex"
+      justifify="start"
+      align="bottom"
+      class="article-heading"
+      :style="`background-image:linear-gradient(to top, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0)), url(${article.img})`"
+    >
+      <a-col class="article-heading_texts">
+        <h1>{{ article.title }}</h1>
+        <h3 class="description">🧑‍💻 {{ article.description }}</h3>
+        <p class="date">
+          📅 Actualizado el {{ formatDate(article.updatedAt) }}
+        </p>
+      </a-col>
+    </a-row>
+
     <article class="container-article">
-      <!-- Heading -->
-      <a-row class="container-article__heading" type="flex" justify="center">
-        <a-col :span="16">
-          <a-row type="flex" justify="space-between">
-            <!-- Image -->
-            <a-col :span="7" class="container-article__heading--img">
-              <img
-                :alt="article.alt"
-                :class="`tag tag-${article.tags[article.tags.length - 1]}`"
-                :src="article.img"
-              />
-            </a-col>
+      <!-- Text -->
+      <nuxt-content class="paragraph" :document="article" />
 
-            <!-- Title and description -->
-            <a-col :span="16">
-              <a-row>
-                <a-col :span="24">
-                  <h1 class="heading-secondary">{{ article.title }}</h1>
-                  <h2 class="description">🧑‍💻 {{ article.description }}</h2>
+      <a-divider />
 
-                  <p class="date">
-                    📅 Actualizado el {{ formatDate(article.updatedAt) }}
-                  </p>
-                </a-col>
-              </a-row>
-
-              <a-row>
-                <a-col :span="24">
-                  <!-- Tags -->
-                  <!-- <tag-avatars :size="'large'" :tags="article.tags" /> -->
-                </a-col>
-              </a-row>
-            </a-col>
-          </a-row>
-
-          <a-divider />
-        </a-col>
-      </a-row>
-
-      <!-- Content -->
-      <a-row class="container-article__content" type="flex" justify="center">
-        <a-col :span="16">
-          <!-- Text -->
-          <nuxt-content class="paragraph" :document="article" />
-
-          <a-divider />
-
-          <!-- Prev and Next -->
-          <a-row>
-            <a-col :span="24">
-              <prev-next :prev="prev" :next="next" />
-            </a-col>
-          </a-row>
+      <!-- Prev and Next -->
+      <a-row>
+        <a-col :span="24">
+          <prev-next :prev="prev" :next="next" />
         </a-col>
       </a-row>
     </article>

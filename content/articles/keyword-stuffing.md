@@ -12,6 +12,4 @@ tags:
 
 --
 
-Créditos
-
-<a class="credits" href='https://www.freepik.es/fotos/tecnologia'>Foto de Tecnología creado por pressfoto - www.freepik.es</a>
+<span class="credits">Créditos <a href='https://www.freepik.es/fotos-premium/google-tipografia-multiple-pared-roja_9113756.htm#page=1&query=google&position=0'>Imagen de Google creada por natanaelginting - www.freepik.es</a></span>

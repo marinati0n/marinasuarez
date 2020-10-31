@@ -1,0 +1,64 @@
+.container-slug {
+  & .article-heading {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35vh;
+    padding: 2rem 15vw;
+
+    & .article-heading_texts {
+      bottom: 0;
+      height: 100%;
+      width: 100%;
+
+      & h1 {
+        color: rgba($color: $color-white, $alpha: 0.95);
+        font-size: 6rem;
+        line-height: 1;
+        margin-bottom: 1.25rem;
+        text-shadow: 0 4px 1.35rem rgba($color: #000000, $alpha: 0.65);
+      }
+
+      & h3.description {
+        color: rgba($color: $color-white, $alpha: 0.9);
+      }
+
+      & p.date {
+        color: rgba($color: $color-white, $alpha: 0.9);
+      }
+    }
+  }
+
+  & .container-article {
+    padding: 2rem 15vw;
+
+    & p {
+      font-size: 1.8rem;
+
+      & span {
+        &.credits {
+          color: $color-grey-dark;
+          font-size: 1.4rem;
+
+          & a {
+            color: $color-primary;
+
+            &:hover {
+              color: $color-secondary;
+            }
+          }
+        }
+      }
+    }
+
+    & .prev-next__container {
+      & a {
+        color: $color-primary;
+
+        &:hover {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}
