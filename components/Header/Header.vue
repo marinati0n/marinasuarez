@@ -7,7 +7,9 @@
         </nuxt-link>
       </a-col>
 
-      <a-col v-if="!visible" class="col-blog" :span="6"><h2>Blog</h2></a-col>
+      <a-col v-if="!visible" class="col-blog" :span="6"
+        ><nuxt-link to="/blog"><h2>Blog</h2></nuxt-link></a-col
+      >
 
       <a-col v-if="visible" class="col-social" :span="4"
         ><SocialMedia :align="'right'"

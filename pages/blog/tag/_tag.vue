@@ -11,6 +11,10 @@
         >
           <a-tag class="label-category">{{ cat.emoji }} {{ cat.title }}</a-tag>
         </NuxtLink>
+
+        <NuxtLink :to="'/blog'">
+          <a-tag class="label-category">Todos</a-tag>
+        </NuxtLink>
       </a-col>
 
       <a-col class="container-blog_search" :span="12">
@@ -54,12 +58,21 @@ import { categories } from '@/utils/categories.js'
 
 export default {
   async asyncData({ $content, params }) {
+    const tags = await $content('tags')
+      .where({ slug: { $contains: params.tag } })
+      .limit(1)
+      .fetch()
+
+    const tag = tags.length > 0 ? tags[0] : {}
+
     const articles = await $content('articles', params.slug)
+      .where({ tags: { $contains: tag.slug } })
       .sortBy('createdAt', 'asc')
       .fetch()
 
     return {
       articles,
+      tag,
     }
   },
   data: () => ({
@@ -71,7 +84,7 @@ export default {
    */
   head() {
     return {
-      title: 'Blog sobre Marketing Digital - SEO | Marina Suárez',
+      title: `Marina Suárez | ${this.tag.name}`,
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {

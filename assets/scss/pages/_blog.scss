@@ -1,7 +1,7 @@
 .container-blog {
   padding: 3rem 50px;
 
-  & .label-categorory {
+  & .label-category {
     cursor: pointer;
   }
 
@@ -18,6 +18,8 @@
   }
 
   & .container-blog__articles {
+    min-height: 52vh;
+
     & .container-blog__article {
       padding: 2rem 4rem;
     }
