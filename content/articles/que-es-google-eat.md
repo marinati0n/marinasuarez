@@ -22,8 +22,6 @@ Google E-A-T nació en agosto de 2018 y surge a raíz de las Directrices que deb
 
 Y bueno... si te digo que los evaluadores de calidad de los resultados no son crawlers o arañas si no que son humanos... ¿Cómo te quedas? Eso lo vamos a tratar un poco más adelante en este artículo.
 
-img: https://res.cloudinary.com/ddk0dwwyi/image/upload/v1604146106/marinasuarez/google_eat.jpg
-
 Para resumir e ir al grano de una vez por todas, te diré que las siglas E-A-T se corresponden con estos términos en inglés y cada término, mide de manera diferente la calidad del contenido según una serie de parámetros que explico a continuación:
 
 - Expertise: nivel de experiencia del autor dentro de una materia o sector en concreto. Se evalúa de forma concreta el propio nivel técnico del contenido, sin tener tanto en cuenta el nombre del sitio web o la organización que está detrás de la página o artículo.
@@ -42,7 +40,7 @@ Por lo que, quizás si tu web trata sobre productos de peluquería, el EAT no re
 
 ## Consejos para mejorar EAT en tu web
 
-- Contrata a expertos en la temática para escribir en tu web y no olvides que deben dejar su marca
+- Contrata a expertos en la temática para escribir en tu web y no olvides que deben dejar su marca de expertos, es decir, firmar el artículo.
 - Consigue reseñas y enlaces hacia tu web, para que tu web se considere de relevancia en esa temática para los usuarios.
 - Ofrece contenido verificado de calidad y actualizado.
 
