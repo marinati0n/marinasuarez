@@ -10,7 +10,7 @@ export const myProjects = {
   pwa: {
     title: 'PWA Experts',
     logo:
-      'https://res.cloudinary.com/ddk0dwwyi/image/upload/v1603973403/marinasuarez/PWAExperts_prmswr.png',
+      'https://res.cloudinary.com/ddk0dwwyi/image/upload/v1603973403/marinasuarez/PWAExperts.png',
     job: 'Head of Marketing',
     link: 'https://www.pwaexperts.io/',
   },
